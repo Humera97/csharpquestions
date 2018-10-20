@@ -109,31 +109,33 @@
      
 28. **Q**: What is an abstract class?
 
-    **A**: An abstract class 
+    **A**: An Abstract Class defines what something is and contains both the definiation/implementation of methods. Abstract classes are usually used as a "base class" for building more specific classes. If there are methods/implementation that is common in the classes, that can be defined/implemented in the abstract class. Thus, with an abstract class you can create functionality, which later subclasses can either implement or override.
     
 29. **Q**: What is an interface?
 
-    **A**:
+    **A**:  Interface can be quickly understood as describing how something behaves, and only has "signatures of methods," making it much like an empty shell. The interface only defines the functionality, it doesn't actually implement.  A class can  implement multiple interfaces, and in general, an interface would be used when you want to "specify an ability" for a class. 
+
     
 30. **Q**: What is a method?
     
-    **A**:
+    **A**: A method is a block of code that carries out a specific task. 
      
 31. **Q**: What is a property?
 
-     **A**:
+     **A**: A property is simply a "named member of a class, structure, or an interface." In a sense, they are similar to methods. 
+     
 32. **Q**: What is an access specifier?
 
-     **A**:
+     **A**: An access specifier simply says what the scome of a variable is. 
      
 33. **Q**: What access specifiers are supported and what do they mean?
 
-     **A**:
+     **A**: There are five access specifiers: public, protected, protected internal, internal, and private. Public means there are not restrictions on access, protected means access is only for the classes that inherit the class it was defined in, protected internal means access is only for the current class or classes that inherit that class, internal means access is only for the current class, and private means access is only for that specific type/method.
      
 34. **Q**: What is a collection?
 
-     **A**:
+     **A**: Collection is a special type of classes, whose purpose is data storage/retrieval. 
    
 35. **Q**: What is a Hash Table?
 
-     **A**:
+     **A**:A hash table has a set of times with a key and value pair. Each key is used to access a specific item in the collection
